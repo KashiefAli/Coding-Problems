@@ -1,0 +1,9 @@
+async function sleep(millis) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve('Promise fulfilled')
+        },millis)
+    })
+}
+
+// Given a positive integer millis, write an asyncronous function that sleeps for millis milliseconds. It can resolve any value.
